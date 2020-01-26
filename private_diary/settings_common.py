@@ -83,6 +83,9 @@ DATABASES = {
         'PASSWORD': os.environ.get('DB_PASSWORD'),
         'HOST': 'db',
         'PORT': '3306',
+        'TEST': {
+            'NAME': 'test_private_diary',
+        },
     }
 }
 
