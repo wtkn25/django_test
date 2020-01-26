@@ -10,6 +10,7 @@ django = "2.2.0"
 pymysql = "^0.9.3"
 mysqlclient = "^1.4.6"
 django-allauth = "^0.41.0"
+pillow = "^7.0.0"
 
 [tool.poetry.dev-dependencies]
 
